@@ -1,0 +1,13 @@
+def main():
+    password()
+
+def password():
+    password1 = input("Please create a password:")
+    password2 = input("Please re-enter your new password:")
+    if (password1) == (password2):
+        print ("Password matches")
+    else:
+        print ("Password does not match")
+        password()
+
+main()
